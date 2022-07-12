@@ -27,9 +27,9 @@ Mobile.tap(findTestObject('Transaction/Make a Payment/Select Account'), 0)
 
 Mobile.tap(findTestObject('Transaction/Make a Payment/Select Payee'), 0)
 
-Mobile.setText(findTestObject('Transaction/Make a Payment/Input Amount Payment'), '50000', 0)
+Mobile.setText(findTestObject('Transaction/Make a Payment/Input Amount Payment'), '5000', 0)
 
-Mobile.tap(findTestObject('Transaction/Transfer/btn Confirm Transfer'), 0)
+Mobile.tap(findTestObject('Transaction/Make a Payment/btn Make Payment'), 0)
 
 Mobile.verifyElementExist(findTestObject('Transaction/Make a Payment/Verify Payment Success'), 1)
 

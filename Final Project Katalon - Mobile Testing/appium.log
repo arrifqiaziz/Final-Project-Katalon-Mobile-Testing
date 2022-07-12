@@ -103,10 +103,11 @@
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dabdd530-e9af-4c71-89bc-195628d16115/elements[39m
 [35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/img_account"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/dabdd530-e9af-4c71-89bc-195628d16115/elements [39m[32m200[39m [90m21 ms - 267[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/dabdd530-e9af-4c71-89bc-195628d16115/elements [39m[32m200[39m [90m[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/e9699368-0178-4d98-a956-bcdc0b94c7e9[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/e9699368-0178-4d98-a956-bcdc0b94c7e9 [39m[33m404[39m [90m111 ms - 2412[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dabdd530-e9af-4c71-89bc-195628d16115/elements[39m
-[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.example.mikebanks.bankscorpfinancial:id/img_account\")"}[39m
+.example.mikebanks.bankscorpfinancial:id/img_account\")"}[39m
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/dabdd530-e9af-4c71-89bc-195628d16115/elements [39m[32m200[39m [90m51 ms - 267[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dabdd530-e9af-4c71-89bc-195628d16115/source[39m
@@ -298,4 +299,9 @@
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dabdd530-e9af-4c71-89bc-195628d16115/elements[39m
 [35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Payee Name' or . = 'Payee Name') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/edt_payee_name']"}[39m
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/dabdd530-e9af-4c71-89bc-195628d16115/elements [39m[32m200[39m [90m33 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/dabdd530-e9af-4c71-89bc-195628d16115[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session dabdd530-e9af-4c71-89bc-195628d16115 from our master session list
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/dabdd530-e9af-4c71-89bc-195628d16115 [39m[32m200[39m [90m220 ms - 14[39m
 [35m[HTTP][39m [90m[39m

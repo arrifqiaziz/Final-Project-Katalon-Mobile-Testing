@@ -25,5 +25,7 @@ Mobile.tap(findTestObject('Sidemenu/Sidemenu - Make a Deposit'), 0)
 
 Mobile.setText(findTestObject('Transaction/Make a Deposit/Input Deposit'), '50000', 0)
 
+Mobile.tap(findTestObject('Transaction/Make a Deposit/btn Deposit'), 0)
+
 Mobile.verifyElementExist(findTestObject('Transaction/Make a Deposit/Verify Deposit Success'), 1)
 

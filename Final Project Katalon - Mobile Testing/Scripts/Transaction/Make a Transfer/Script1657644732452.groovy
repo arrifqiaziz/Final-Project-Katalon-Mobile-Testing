@@ -25,7 +25,7 @@ Mobile.tap(findTestObject('Sidemenu/Sidemenu - Make a Transfer'), 0)
 
 Mobile.tap(findTestObject('Transaction/Transfer/Select Sending'), 0)
 
-Mobile.setText(findTestObject('Transaction/Transfer/Input Transfer Amount'), '50000', 0)
+Mobile.setText(findTestObject('Transaction/Transfer/Input Transfer Amount'), '5000', 0)
 
 Mobile.tap(findTestObject('Transaction/Transfer/Select Receiving'), 0)
 
