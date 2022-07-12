@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Arrifqi - TC Mobile Testing
+Description: Final Project for Automated Testing with Katalon Studio
+
+Target Mobile Testing : Bank App Demo</description>
+   <name>MP-2 Arrifqi - TC Mobile Testing</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10029&quot;:&quot;Feature: Test Feature of Bank App Demo\nGiven I Set username\nWhen I Set Login\nAnd Send a reuest login\nThen I receive valid Response&quot;,&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0001j:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://timbelajar3.atlassian.net/&quot;,&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/project/10002&quot;,&quot;key&quot;:&quot;MP&quot;,&quot;id&quot;:10002,&quot;name&quot;:&quot;Mobile Project&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Arrifqi - TC Mobile Testing&quot;,&quot;description&quot;:&quot;Final Project for Automated Testing with Katalon Studio\n\nTarget Mobile Testing : Bank App Demo&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;arrifqiaziz@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Arrifqi Aziz Ardhiansyah&quot;,&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/user?accountId\u003d70121%3A91f159b1-305e-49ca-a911-a6ecd8c630d8&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/issue/MP-2/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/issue/10009&quot;,&quot;key&quot;:&quot;MP-2&quot;,&quot;id&quot;:10009}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>8c20741c-2e34-4b85-890f-89d8e949f0f2</testCaseGuid>
+</TestCaseEntity>
