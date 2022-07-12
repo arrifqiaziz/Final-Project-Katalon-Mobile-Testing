@@ -17,19 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Register, Login and Logout/Login Success'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication('com.example.mikebanks.bankscorpfinancial', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Sidemenu/btn Sidemenu'), 0)
+Mobile.setText(findTestObject('Home Page/Login - Username'), 'arrifqi1', 0)
 
-Mobile.tap(findTestObject('Sidemenu/Sidemenu - Accounts'), 0)
+Mobile.setText(findTestObject('Home Page/Login - Password'), 'aaa', 0)
 
-Mobile.tap(findTestObject('Accounts/Transaction History/Account2'), 0)
+Mobile.checkElement(findTestObject('Home Page/Login - Remember Credentials'), 0)
 
-Mobile.verifyElementExist(findTestObject('Accounts/Transaction History/Transaction History'), 1)
+Mobile.tap(findTestObject('Home Page/btn Login'), 0)
 
-Mobile.verifyElementExist(findTestObject('Accounts/Transaction History/Verify History - Account'), 1)
-
-Mobile.verifyElementExist(findTestObject('Accounts/Transaction History/Verify History - Order by'), 1)
-
-Mobile.verifyElementExist(findTestObject('Accounts/Transaction History/Verify History - Type'), 1)
+Mobile.verifyElementExist(findTestObject('Home Page/Verify Login Failed'), 1)
 

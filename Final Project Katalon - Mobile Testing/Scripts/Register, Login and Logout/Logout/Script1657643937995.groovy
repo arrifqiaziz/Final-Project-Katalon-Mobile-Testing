@@ -17,23 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.example.mikebanks.bankscorpfinancial', FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Register, Login and Logout/Login Success'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Login Page/btn Create Profile'), 0)
+Mobile.tap(findTestObject('Sidemenu/btn Sidemenu'), 0)
 
-Mobile.setText(findTestObject('Create Profile Page/Create Profile - First Name'), 'Arrifqi', 0)
+Mobile.tap(findTestObject('Sidemenu/Sidemenu - Logout'), 0)
 
-Mobile.setText(findTestObject('Create Profile Page/Create Profile - Last Name'), 'Aziz', 0)
-
-Mobile.setText(findTestObject('Create Profile Page/Create Profile - Country'), 'Indonesia', 0)
-
-Mobile.setText(findTestObject('Create Profile Page/Create Profile - Username'), 'arrifqi1', 0)
-
-Mobile.setText(findTestObject('Create Profile Page/Create Profile - Password'), 'arrifqi', 0)
-
-Mobile.setText(findTestObject('Create Profile Page/Create Profile - Confirm Password'), 'arrifqi', 0)
-
-Mobile.tap(findTestObject('Create Profile Page/btn Register'), 0, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.verifyElementExist(findTestObject('Create Profile Page/Verify Create Profile Success'), 1)
+Mobile.verifyElementExist(findTestObject('Home Page/Verify Logout'), 0)
 

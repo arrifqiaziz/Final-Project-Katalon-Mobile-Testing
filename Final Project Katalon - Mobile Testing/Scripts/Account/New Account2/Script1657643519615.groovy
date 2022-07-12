@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Register and Login/Login Success'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Register, Login and Logout/Login Success'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Sidemenu/btn Sidemenu'), 0)
 

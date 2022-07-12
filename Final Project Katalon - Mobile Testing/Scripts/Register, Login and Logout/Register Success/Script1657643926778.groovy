@@ -19,13 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.example.mikebanks.bankscorpfinancial', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Login Page/Login - Username'), 'arrifqi1', 0)
+Mobile.tap(findTestObject('Home Page/btn Create Profile'), 0)
 
-Mobile.setText(findTestObject('Login Page/Login - Password'), 'arrifqi', 0)
+Mobile.setText(findTestObject('Create Profile Page/Create Profile - First Name'), 'Arrifqi', 0)
 
-Mobile.checkElement(findTestObject('Login Page/Login - Remember Credentials'), 0)
+Mobile.setText(findTestObject('Create Profile Page/Create Profile - Last Name'), 'Aziz', 0)
 
-Mobile.tap(findTestObject('Login Page/btn Login'), 0)
+Mobile.setText(findTestObject('Create Profile Page/Create Profile - Country'), 'Indonesia', 0)
 
-Mobile.verifyElementExist(findTestObject('Login Page/Verify Login Success'), 1)
+Mobile.setText(findTestObject('Create Profile Page/Create Profile - Username'), 'arrifqi1', 0)
+
+Mobile.setText(findTestObject('Create Profile Page/Create Profile - Password'), 'arrifqi', 0)
+
+Mobile.setText(findTestObject('Create Profile Page/Create Profile - Confirm Password'), 'arrifqi', 0)
+
+Mobile.tap(findTestObject('Create Profile Page/btn Register'), 0, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementExist(findTestObject('Create Profile Page/Verify Create Profile Success'), 1)
 

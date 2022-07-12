@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.example.mikebanks.bankscorpfinancial', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Login Page/btn Create Profile'), 0)
+Mobile.tap(findTestObject('Home Page/btn Create Profile'), 0)
 
 Mobile.setText(findTestObject('Create Profile Page/Create Profile - First Name'), 'Arrifqi', 0)
 

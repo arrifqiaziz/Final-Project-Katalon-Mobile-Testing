@@ -109,3 +109,17 @@
 [35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.example.mikebanks.bankscorpfinancial:id/img_account\")"}[39m
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/dabdd530-e9af-4c71-89bc-195628d16115/elements [39m[32m200[39m [90m51 ms - 267[39m
 [35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dabdd530-e9af-4c71-89bc-195628d16115/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (dabdd530)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 9b7397f3-d8f9-4f7a-a387-9274165da87d with dabdd530-e9af-4c71-89bc-195628d16115
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/dabdd530-e9af-4c71-89bc-195628d16115/source [39m[32m200[39m [90m101 ms - 10647[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dabdd530-e9af-4c71-89bc-195628d16115/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/dabdd530-e9af-4c71-89bc-195628d16115/screenshot [39m[32m200[39m [90m621 ms - 464602[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dabdd530-e9af-4c71-89bc-195628d16115/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Bank App Demo' or . = 'Bank App Demo')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/dabdd530-e9af-4c71-89bc-195628d16115/elements [39m[32m200[39m [90m95 ms - 139[39m
+[35m[HTTP][39m [90m[39m

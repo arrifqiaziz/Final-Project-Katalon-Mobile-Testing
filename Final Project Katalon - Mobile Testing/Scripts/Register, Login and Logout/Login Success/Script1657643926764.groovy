@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.example.mikebanks.bankscorpfinancial', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Login Page/Login - Username'), 'arrifqi1', 0)
+Mobile.setText(findTestObject('Home Page/Login - Username'), 'arrifqi1', 0)
 
-Mobile.setText(findTestObject('Login Page/Login - Password'), 'aaa', 0)
+Mobile.setText(findTestObject('Home Page/Login - Password'), 'arrifqi', 0)
 
-Mobile.checkElement(findTestObject('Login Page/Login - Remember Credentials'), 0)
+Mobile.checkElement(findTestObject('Home Page/Login - Remember Credentials'), 0)
 
-Mobile.tap(findTestObject('Login Page/btn Login'), 0)
+Mobile.tap(findTestObject('Home Page/btn Login'), 0)
 
-Mobile.verifyElementExist(findTestObject('Login Page/Verify Login Failed'), 1)
+Mobile.verifyElementExist(findTestObject('Home Page/Verify Login Success'), 1)
 
