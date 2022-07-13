@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS Register with DDT</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>26246187-27bf-4384-b0ba-ebffcbaaf583</testSuiteGuid>
+   <testCaseLink>
+      <guid>d0c99dbb-086e-4db6-865a-59e365c6d1b0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Register, Login and Logout/Register With DDT</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>928764f7-a3c5-4a40-be7b-f1c09afb4b90</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Regiter with DDT/Data Register with DDT</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>928764f7-a3c5-4a40-be7b-f1c09afb4b90</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>firstname</value>
+         <variableId>8cf3fd13-af6d-4f56-8e5d-788040c9383d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>928764f7-a3c5-4a40-be7b-f1c09afb4b90</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>lastname</value>
+         <variableId>cb33053e-77fe-4f9b-8382-0265f926af8d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>928764f7-a3c5-4a40-be7b-f1c09afb4b90</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>country</value>
+         <variableId>bff1ad60-a5d2-4d85-83d7-5b3fd82d810e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>928764f7-a3c5-4a40-be7b-f1c09afb4b90</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>918759c1-2dc9-44e3-8816-75106efa975e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>928764f7-a3c5-4a40-be7b-f1c09afb4b90</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>9a2564e2-2058-4256-9b0b-f590414e33a0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>928764f7-a3c5-4a40-be7b-f1c09afb4b90</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>confirm_password</value>
+         <variableId>647e7625-dd2c-4656-9ded-3ea4a2cdeb52</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
