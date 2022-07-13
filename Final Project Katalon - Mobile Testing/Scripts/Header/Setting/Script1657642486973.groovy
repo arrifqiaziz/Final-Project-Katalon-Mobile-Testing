@@ -25,3 +25,9 @@ Mobile.tap(findTestObject('Header/Setting - App Settings'), 0)
 
 Mobile.verifyElementExist(findTestObject('Header/Verify Setting'), 1)
 
+if (WebUI.verifyElementClickable(findTestObject('Header/Cart'), FailureHandling.OPTIONAL)) {
+    Mobile.verifyElementExist(findTestObject('Header/Verify Setting'), 1)
+} else {
+    Mobile.verifyElementNotExist(findTestObject('Header/Verify Setting'), 1)
+}
+
