@@ -2,7 +2,7 @@
 Final Project for Automated Testing with Katalon Studio in BTDP 2022 with Hacktiv8 as Learning Partner
 
 ## Informasi Dasar
-Aplikasi Web Testing (https://kotakoki.wijaysali.my.id/) adalah sebuah Final Project dari `BFI Technology Development Program (BTDP) feat Hactiv8` dengan topik `Automated Testing with Katalon`, aplikasi ini terfokus pada bagaimana cara kerja WEB dengan melakukan testing pada semua Fitur WEB, yang dibuat oleh
+Aplikasi Mobile Testing  (com.example.mikebanks.bankscorpfinancial) adalah sebuah Final Project dari `BFI Technology Development Program (BTDP) feat Hactiv8` dengan topik `Automated Testing with Katalon`, aplikasi ini terfokus pada bagaimana cara kerja Aplikasi Mobile dengan melakukan testing pada semua fitur, yang dibuat oleh
 
 Nama		                 : `Arrifqi Aziz Ardhiansyah`\
 Kode Peserta             : `KSAT006ONL009`\
