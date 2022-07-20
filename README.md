@@ -80,7 +80,6 @@ TS Register With DDT
 TS Register, Login and Logout
 TS Transaction
 ```
-Dan ketika selesai testing, hasil pengujian di Export kedalam bentuk PDF dan HTML adar dapat dilihat lebih rapih di [Report](https://github.com/arrifqiaziz/Final-Project-Katalon-Mobile-Testing/tree/main/Report)
 
 ## Screenshot
 Screenshot Testing hasil testing tidak dimasukan kedalam readme agar rapih\
